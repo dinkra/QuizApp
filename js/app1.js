@@ -61,7 +61,7 @@ $(document).ready(function(){
 	console.log(questions[0].rightAnswer);
 	
 	for (var i = 0; i < questions.length; i++) {
-		//consoleQuestion(questions[i]);
+		consoleQuestion(questions[i]);
 		//printQuestion(questions[i]);
 	};
 
