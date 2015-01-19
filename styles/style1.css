@@ -1,0 +1,19 @@
+
+
+.poll-quiz {
+	width: 600px;
+  	margin: 0 auto;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+ul {
+	margin: 40px;
+}
+
+li {
+	font-size: 1.5em;
+	xtext-align: center;
+}
