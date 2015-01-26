@@ -84,7 +84,7 @@ $(document).ready(function(){
 	];
 
 
-	// Function for any right answers
+	// Function for creating any right answers
 	function printQuestion(q) {
 		$('.questionText').text(q.questionText);
 		$('#answers').empty();
@@ -100,8 +100,8 @@ $(document).ready(function(){
 	var bingo = 0;
 	$('.right-wrong').hide();
 
+	// START QUIZ and OK buttons behavor
 	$('#ok').on('click', function() {
-		
 		quest++;
 		$('.right-wrong').hide();
 
@@ -118,7 +118,7 @@ $(document).ready(function(){
 		
 	});
 
-
+	// Choosing right answer
 	$('ul').on('click','li', function() {
 			var text = questions[quest].answers[questions[quest].rightAnswer];
 			console.log(text);
