@@ -19,8 +19,8 @@
 	</head>
 	<body>
 		<div class="quiz-header">
-  			<p>Score - <strong class="quiz-score">0</strong> of <strong class="quiz-score-round">0</strong></p>
-  			<h2>Question - <strong>1</strong> of <strong>15</strong></h2>
+  			<p id="quiz-score-position">Score - <strong id="quiz-score">0</strong> of <strong class='quiz-number'>0</strong></p>
+  			<p id="quiz-question-position">Question - <strong class='quiz-number'>1</strong> of <strong>15</strong></p>
 		</div>
 
 
@@ -28,7 +28,14 @@
   			<div class="questionText" style="display: block;"></div>
     			
     
-    		<ul class="answers"></ul>
+    		<ul id='answers'>
+    		</ul>
+
+    		<div id="right" class="right-wrong"></div>
+    		<div id="wrong" class="right-wrong"></div>
+    		<div id="your-score" class="right-wrong"></div>
+
+    		<div id="ok">START QUIZ</div>
 
     		</div>
 
